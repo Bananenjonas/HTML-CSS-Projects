@@ -31,9 +31,10 @@ a {
 }
 
 /*Our Mission*/
-.mission{
+#mission{
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 69px;
 }
 .imagemission  {
@@ -70,7 +71,7 @@ a {
   text-align: center;
 }
 
-.featuredtea {
+#featuredtea {
   text-align: center;
   width: 1000px;
   margin: auto;
@@ -78,6 +79,51 @@ a {
 }
 
 /*Locations*/
+#locations  {
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
 
+#locationsheading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.locationbox  {
+  display: flex;
+  width: 300px;
+  background-color: black;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 1;
+
+}
+
+#locationcontainer  {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.rightmargin  {
+  margin-right: 40px;
+}
 
 /*Footer*/
+footer  {
+  text-align: center;
+  height: 200px;
+}
+
+/*Copyright*/
+#copyright  {
+  text-align: left;
+  margin-left: 20px;
+}
